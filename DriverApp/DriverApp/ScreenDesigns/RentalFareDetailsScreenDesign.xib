@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RentalFareDetailsUV" customModule="DriverApp" customModuleProvider="target">
+            <connections>
+                <outlet property="additionalKmFareHLbl" destination="dYj-CZ-jfr" id="m80-3w-g5C"/>
+                <outlet property="additionalKmFareNoteLbl" destination="wpL-nN-Swm" id="j2J-wF-45E"/>
+                <outlet property="additionalKmFareVLbl" destination="7Ft-ZH-hbf" id="Lyi-Vw-ymV"/>
+                <outlet property="additionalTimeFareHLbl" destination="3nR-wX-GXB" id="VrI-Uk-huP"/>
+                <outlet property="additionalTimeFareNoteLbl" destination="qQB-i1-ziq" id="ou4-aP-Aeb"/>
+                <outlet property="additionalTimeFareVLbl" destination="Duo-vq-eUO" id="8X4-NQ-fo5"/>
+                <outlet property="baseFareHLbl" destination="IRq-uV-4jV" id="jmu-0E-NlB"/>
+                <outlet property="baseFareNoteLbl" destination="b5A-XI-Ey2" id="9mE-V1-jED"/>
+                <outlet property="baseFareVLbl" destination="E3z-HD-U90" id="YPI-a1-9tM"/>
+                <outlet property="noteHLbl" destination="Dbz-Fg-Hf4" id="ZMU-7B-GbB"/>
+                <outlet property="noteVLbl" destination="S2e-3e-75S" id="tBn-IE-X11"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="298"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5A-XI-Ey2" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="47" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Light"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRq-uV-4jV" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="20" width="268" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text=" 123456" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-HD-U90" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="292" y="20" width="67" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpL-nN-Swm" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="106" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Light"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYj-CZ-jfr" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="79" width="268" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text=" 123456" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-ZH-hbf" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="292" y="79" width="67" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQB-i1-ziq" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="165" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Light"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nR-wX-GXB" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="138" width="268" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text=" 123456" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Duo-vq-eUO" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="292" y="138" width="67" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.1529411765" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1rQ-te-M7Q">
+                    <rect key="frame" x="14" y="205" width="348" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="hzG-Ah-dbW"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbz-Fg-Hf4" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="229" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2e-3e-75S" customClass="MyLabel" customModule="DriverApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="261" width="343" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40392156862745099" green="0.40392156862745099" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyName" value="Roboto-Light"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1rQ-te-M7Q" firstAttribute="top" secondItem="qQB-i1-ziq" secondAttribute="bottom" constant="23" id="0C7-fe-UWa"/>
+                <constraint firstItem="wpL-nN-Swm" firstAttribute="top" secondItem="dYj-CZ-jfr" secondAttribute="bottom" constant="5" id="0Ye-Y6-9uN"/>
+                <constraint firstItem="dYj-CZ-jfr" firstAttribute="top" secondItem="b5A-XI-Ey2" secondAttribute="bottom" constant="15" id="0eD-99-zKe"/>
+                <constraint firstItem="b5A-XI-Ey2" firstAttribute="top" secondItem="IRq-uV-4jV" secondAttribute="bottom" constant="5" id="6aN-Kx-kzl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="E3z-HD-U90" secondAttribute="trailing" constant="16" id="9m6-RB-kzF"/>
+                <constraint firstItem="wpL-nN-Swm" firstAttribute="trailing" secondItem="7Ft-ZH-hbf" secondAttribute="trailing" id="DdQ-Av-kkf"/>
+                <constraint firstItem="IRq-uV-4jV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="DxE-UX-Kkk"/>
+                <constraint firstItem="S2e-3e-75S" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Fvv-Hi-tem"/>
+                <constraint firstItem="1rQ-te-M7Q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GvE-wN-ANu"/>
+                <constraint firstItem="E3z-HD-U90" firstAttribute="leading" secondItem="IRq-uV-4jV" secondAttribute="trailing" constant="8" id="H3L-Nv-o9n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Duo-vq-eUO" secondAttribute="trailing" constant="16" id="HTN-yB-c9o"/>
+                <constraint firstItem="3nR-wX-GXB" firstAttribute="top" secondItem="wpL-nN-Swm" secondAttribute="bottom" constant="15" id="J9G-1T-MG0"/>
+                <constraint firstItem="3nR-wX-GXB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Jb2-WU-2sg"/>
+                <constraint firstItem="qQB-i1-ziq" firstAttribute="leading" secondItem="3nR-wX-GXB" secondAttribute="leading" id="Lpr-ml-NkV"/>
+                <constraint firstItem="Duo-vq-eUO" firstAttribute="leading" secondItem="3nR-wX-GXB" secondAttribute="trailing" constant="8" id="QRb-XO-fWi"/>
+                <constraint firstItem="dYj-CZ-jfr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="RXd-ks-upa"/>
+                <constraint firstItem="Duo-vq-eUO" firstAttribute="top" secondItem="wpL-nN-Swm" secondAttribute="bottom" constant="15" id="RgM-X9-tI8"/>
+                <constraint firstItem="IRq-uV-4jV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="VOs-2N-NWn"/>
+                <constraint firstItem="7Ft-ZH-hbf" firstAttribute="top" secondItem="b5A-XI-Ey2" secondAttribute="bottom" constant="15" id="VPv-xr-KQe"/>
+                <constraint firstItem="Dbz-Fg-Hf4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="VT0-Kg-RDI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="S2e-3e-75S" secondAttribute="trailing" constant="16" id="Wxf-Ra-LUS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Ft-ZH-hbf" secondAttribute="trailing" constant="16" id="XME-Pl-xrF"/>
+                <constraint firstAttribute="trailing" secondItem="1rQ-te-M7Q" secondAttribute="trailing" constant="13" id="Xs6-vp-0eD"/>
+                <constraint firstItem="Dbz-Fg-Hf4" firstAttribute="top" secondItem="1rQ-te-M7Q" secondAttribute="bottom" constant="23" id="Y7y-ud-5EL"/>
+                <constraint firstItem="b5A-XI-Ey2" firstAttribute="leading" secondItem="IRq-uV-4jV" secondAttribute="leading" id="ZIa-Qc-qZO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Dbz-Fg-Hf4" secondAttribute="trailing" constant="16" id="c5F-L7-jWR"/>
+                <constraint firstItem="wpL-nN-Swm" firstAttribute="leading" secondItem="dYj-CZ-jfr" secondAttribute="leading" id="dm8-BT-dhN"/>
+                <constraint firstItem="E3z-HD-U90" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="eNX-Kf-b5j"/>
+                <constraint firstItem="S2e-3e-75S" firstAttribute="top" secondItem="Dbz-Fg-Hf4" secondAttribute="bottom" constant="15" id="fEH-cS-btb"/>
+                <constraint firstItem="qQB-i1-ziq" firstAttribute="trailing" secondItem="Duo-vq-eUO" secondAttribute="trailing" id="mTS-le-Xs3"/>
+                <constraint firstItem="7Ft-ZH-hbf" firstAttribute="leading" secondItem="dYj-CZ-jfr" secondAttribute="trailing" constant="8" id="oET-gI-n24"/>
+                <constraint firstItem="qQB-i1-ziq" firstAttribute="top" secondItem="3nR-wX-GXB" secondAttribute="bottom" constant="5" id="vXs-Rx-gtE"/>
+                <constraint firstItem="1rQ-te-M7Q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="zwZ-eS-fdw"/>
+                <constraint firstItem="b5A-XI-Ey2" firstAttribute="trailing" secondItem="E3z-HD-U90" secondAttribute="trailing" id="zyP-ES-IAk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-159" y="-318"/>
+        </view>
+    </objects>
+</document>
